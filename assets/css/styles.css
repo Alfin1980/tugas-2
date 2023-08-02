@@ -1,0 +1,108 @@
+body{
+  background:linear-gradient( #4a4a4d, black);
+  backdrop-filter: blur (5px);
+  color: white;
+  height: 130vh;
+}
+h1 {
+  text-align:center;
+  font-family: dancing script;
+}
+
+h2{
+  font-family:'Poppins';
+  font-size:12px;
+}
+p{
+  margin:0;
+  padding:10px;
+  display: flex;
+  font-family:Lumanosimo;
+  position: relative;
+  top:-260px;
+}
+.menu3{
+  text-decoration: none;
+  position: relative;
+  top:-126px;
+  left:17px;
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+  color: white;
+  font-family: poppins;
+  border:10px solid blur(5px);
+  padding: 2px 8px;
+  border-radius: 20px;
+}
+.menu{
+  position: relative;
+  text-decoration: none;
+  top: -105px;
+  left: 17px;
+  bottom: 80px;
+  z-index: 2;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 12px;
+  padding: 4px 10px;
+  color: white;
+  /*--
+   text-decoration: none;
+   position: relative;
+   top:-105px;
+   left:17px;
+   background-color: rgba(255, 255, 255, .15);
+   backdrop-filter: blur(50px);
+   color: white;
+   font-family: poppins;
+   border:10px solid blur(5px);
+   padding: 2px 8px;
+   border-radius: 20px;*/
+}
+#menu-list{
+  grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    gap: 10px;
+    
+}
+.menu-card img{
+  width: 100%;
+  height:100%;
+  border: 5px solid none;
+  border-radius: 20px;
+}
+/*--
+.menu1{
+  text-decoration: none;
+  position: relative;
+  top:-50px;
+  left:17px;
+  background-color: rgba(0,0,0, 0.4);
+  backdrop-filter: blur(5px);
+  border: 3px solid #f1f1f1;
+  color: white;
+  font-family: poppins;
+  padding: 2px 8px;
+  border-radius: 20px;
+}*/
+#menu-utama img{
+  width: 100%;
+  border-radius:20px;
+  }
+  
+  .menu1{
+position: relative;
+text-decoration: none;
+top: -40px;
+left: 30px;
+bottom: 80px;
+z-index: 2;
+background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+backdrop-filter: blur(2.5px);
+-webkit-backdrop-filter: blur(10px);
+border-radius: 12px;
+padding: 4px 10px;
+color: white;
+}
+  
